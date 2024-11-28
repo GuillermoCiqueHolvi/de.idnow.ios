@@ -147,7 +147,17 @@ typedef NS_ENUM (NSInteger, IDnowError)
     /**
      *  INSTANT_SIGN rejected, the trusted document is expired. This document is not valid.
      */
-    IDnowInstantSignDocumentExpired = 1024
+    IDnowInstantSignDocumentExpired = 1024,
+
+    /**
+     *  Client certificate is not valid
+     */
+    IDnowErrorInvalidClientCertificate    = 1025,
+    
+    /**
+     *    UDP frontend certificate validation failed
+     */
+    IDnowUDPCertificateValidationFailed = 1026,
 };
 
 @interface NSError (IDnowError)
