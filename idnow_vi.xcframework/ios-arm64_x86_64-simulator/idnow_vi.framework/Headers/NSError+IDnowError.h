@@ -158,6 +158,11 @@ typedef NS_ENUM (NSInteger, IDnowError)
      *    UDP frontend certificate validation failed
      */
     IDnowUDPCertificateValidationFailed = 1026,
+
+    /**
+     *    When a request times out (NSURLErrorTimedOut), it may be due to the user's poor internet connection or a lack of response from the server.
+     */
+    IDnowErrorTimeOut = 1027
 };
 
 @interface NSError (IDnowError)
