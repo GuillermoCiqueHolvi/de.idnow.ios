@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		pu3NOfDY7FagB3Gpex4EOo33WeE=
+		ONyEltDv4f2p4egIZ18MV+lh//0=
 		</data>
 		<key>Headers/idnow_eid-Swift.h</key>
 		<data>
@@ -178,11 +178,11 @@
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Ea/1VRm79NFvc55HuxJKyVH1Cqg=
+		b9z8EcEg7VRKAL4bmpQ9LDcurWA=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		5M5lsQBoDNHSZ3k7NULjJxofx6Q=
+		wmGY6Q7juMfgZkMRIpjS1mVZfqU=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -198,7 +198,7 @@
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4w1Kcr0ArhS5GcdZXhzhxD9Su0E=
+		rmoPqNRr9d9mcD1VMTcRl9r5bj8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -453,7 +453,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			guDPqRK0ipfHJs3dvhtOBMkoUHLN7JRlxawbXYToVnY=
+			ojeljlcorS8up2b1AD4dZE1P9fQQzX2vHj3lRFYXw7Y=
 			</data>
 		</dict>
 		<key>Headers/idnow_eid-Swift.h</key>
@@ -747,14 +747,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8TTUdO5C14UiHjwexuZgnq2BZyH6EcVfrRxFvhdgQhc=
+			fYOW1SMFhEfXstKRjSYPyJnHHM5PVEf2Az2U/D8X3kw=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aMtMxf7LU9SeUZT2xhA+x2UfNYHYGyoDqSKjkMOjA10=
+			4w9+qeVvphxLrHBrkcCi2nSe9DImPd0N3e3dQcEHMYw=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -782,7 +782,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4rdFsGQdPco3Z4Ny3mnNR57LTqCxaEftZ4YvFPmdRCA=
+			4VWvJ6jAWCFEblO7a4DNSIqlraSsYqoVge/+yURKsoM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
