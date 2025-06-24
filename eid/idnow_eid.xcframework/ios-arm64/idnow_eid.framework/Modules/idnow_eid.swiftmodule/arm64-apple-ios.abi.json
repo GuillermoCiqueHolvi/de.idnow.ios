@@ -16,13 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "AuthadaAuthenticationLibrary",
-        "printedName": "AuthadaAuthenticationLibrary",
-        "declKind": "Import",
-        "moduleName": "idnow_eid"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -249,8 +242,8 @@
       },
       {
         "kind": "Import",
-        "name": "AuthadaAuthenticationLibrary",
-        "printedName": "AuthadaAuthenticationLibrary",
+        "name": "CoreNFC",
+        "printedName": "CoreNFC",
         "declKind": "Import",
         "moduleName": "idnow_eid"
       },
@@ -1560,6 +1553,16 @@
         "printedName": "CoreGraphics",
         "declKind": "Import",
         "moduleName": "idnow_eid"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "idnow_eid",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -5312,6 +5315,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "idnow_eid",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5757,6 +5770,76 @@
             "declKind": "EnumElement",
             "usr": "s:9idnow_eid16IDnoweIDServicesO5startyACSDySSypG_tcACmF",
             "mangledName": "$s9idnow_eid16IDnoweIDServicesO5startyACSDySSypG_tcACmF",
+            "moduleName": "idnow_eid"
+          },
+          {
+            "kind": "Var",
+            "name": "startEid",
+            "printedName": "startEid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(idnow_eid.IDnoweIDServices.Type) -> ([Swift.String : Any]) -> idnow_eid.IDnoweIDServices",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Any]) -> idnow_eid.IDnoweIDServices",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDnoweIDServices",
+                        "printedName": "idnow_eid.IDnoweIDServices",
+                        "usr": "s:9idnow_eid16IDnoweIDServicesO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(payload: [Swift.String : Any])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "idnow_eid.IDnoweIDServices.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IDnoweIDServices",
+                        "printedName": "idnow_eid.IDnoweIDServices",
+                        "usr": "s:9idnow_eid16IDnoweIDServicesO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9idnow_eid16IDnoweIDServicesO8startEidyACSDySSypG_tcACmF",
+            "mangledName": "$s9idnow_eid16IDnoweIDServicesO8startEidyACSDySSypG_tcACmF",
             "moduleName": "idnow_eid"
           },
           {
@@ -6652,6 +6735,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "idnow_eid",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AusweisApp2",
+        "printedName": "AusweisApp2",
+        "declKind": "Import",
+        "moduleName": "idnow_eid"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6726,23 +6826,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "idnow_eid",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AuthadaAuthenticationLibrary",
-        "printedName": "AuthadaAuthenticationLibrary",
-        "declKind": "Import",
-        "moduleName": "idnow_eid"
       },
       {
         "kind": "Import",
@@ -7306,6 +7389,16 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "idnow_eid",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -13432,6 +13525,13 @@
       },
       {
         "kind": "Import",
+        "name": "AuthadaAuthenticationLibrary",
+        "printedName": "AuthadaAuthenticationLibrary",
+        "declKind": "Import",
+        "moduleName": "idnow_eid"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -13442,10 +13542,13 @@
       },
       {
         "kind": "Import",
-        "name": "AuthadaAuthenticationLibrary",
-        "printedName": "AuthadaAuthenticationLibrary",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "idnow_eid"
+        "moduleName": "idnow_eid",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -16786,6 +16889,186 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "AusweisApp",
+        "printedName": "AusweisApp",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Command",
+            "printedName": "Command",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9idnow_eid10AusweisAppV7CommandV9hashValueSivp",
+                "mangledName": "$s9idnow_eid10AusweisAppV7CommandV9hashValueSivp",
+                "moduleName": "idnow_eid",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9idnow_eid10AusweisAppV7CommandV9hashValueSivg",
+                    "mangledName": "$s9idnow_eid10AusweisAppV7CommandV9hashValueSivg",
+                    "moduleName": "idnow_eid",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9idnow_eid10AusweisAppV7CommandV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s9idnow_eid10AusweisAppV7CommandV4hash4intoys6HasherVz_tF",
+                "moduleName": "idnow_eid",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Command",
+                    "printedName": "idnow_eid.AusweisApp.Command",
+                    "usr": "s:9idnow_eid10AusweisAppV7CommandV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Command",
+                    "printedName": "idnow_eid.AusweisApp.Command",
+                    "usr": "s:9idnow_eid10AusweisAppV7CommandV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9idnow_eid10AusweisAppV7CommandV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9idnow_eid10AusweisAppV7CommandV2eeoiySbAE_AEtFZ",
+                "moduleName": "idnow_eid",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9idnow_eid10AusweisAppV7CommandV",
+            "mangledName": "$s9idnow_eid10AusweisAppV7CommandV",
+            "moduleName": "idnow_eid",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9idnow_eid10AusweisAppV",
+        "mangledName": "$s9idnow_eid10AusweisAppV",
+        "moduleName": "idnow_eid",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "idnow_eid",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -16851,10 +17134,23 @@
       },
       {
         "kind": "Import",
-        "name": "AuthadaAuthenticationLibrary",
-        "printedName": "AuthadaAuthenticationLibrary",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "idnow_eid"
+        "moduleName": "idnow_eid",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "idnow_eid",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -17446,13 +17742,6 @@
       },
       {
         "kind": "Import",
-        "name": "AuthadaAuthenticationLibrary",
-        "printedName": "AuthadaAuthenticationLibrary",
-        "declKind": "Import",
-        "moduleName": "idnow_eid"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -17708,6 +17997,16 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AuthadaAuthenticationLibrary",
+        "printedName": "AuthadaAuthenticationLibrary",
+        "declKind": "Import",
+        "moduleName": "idnow_eid",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -20727,6 +21026,27 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDTokenInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 192,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDTokenInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 221,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDTokenInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 553,
+      "length": 26,
+      "value": "\"Identification-Signature\""
+    },
+    {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/IDN_eIDConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 232,
@@ -20778,35 +21098,35 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Routers\/IDN_eIDRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1045,
+      "offset": 1028,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Routers\/IDN_eIDRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 11499,
+      "offset": 13534,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Routers\/IDN_eIDRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 11526,
+      "offset": 13561,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Routers\/IDN_eIDRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 12051,
+      "offset": 14115,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Routers\/IDN_eIDRouter.swift",
       "kind": "BooleanLiteral",
-      "offset": 12078,
+      "offset": 14142,
       "length": 4,
       "value": "true"
     },
@@ -21399,6 +21719,34 @@
       "value": "\"to\""
     },
     {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTypesViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3999,
+      "length": 4,
+      "value": "80.0"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTypesViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4050,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTypesViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4097,
+      "length": 12,
+      "value": "\"headerCell\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTypesViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4154,
+      "length": 15,
+      "value": "\"chooseIDTypes\""
+    },
+    {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/Signing\/VerificationCode\/eIDVerificationCodeView.swift",
       "kind": "FloatLiteral",
       "offset": 505,
@@ -21758,7 +22106,7 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/IDN_eIDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1946,
+      "offset": 2024,
       "length": 5,
       "value": "false"
     },
@@ -21779,35 +22127,35 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDEnterPINCodeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3639,
+      "offset": 4410,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDEnterPINCodeViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3946,
+      "offset": 4709,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDEnterPINCodeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4052,
+      "offset": 4815,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDEnterPINCodeViewController.swift",
       "kind": "Array",
-      "offset": 11067,
+      "offset": 12124,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDEnterPINCodeViewController.swift",
       "kind": "Array",
-      "offset": 11460,
+      "offset": 12517,
       "length": 2,
       "value": "[]"
     },
@@ -21877,7 +22225,7 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/Signing\/ConsentProtocol\/IDN_eIDConsentProtocolViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3142,
+      "offset": 3345,
       "length": 13,
       "value": "\"tspDocument\""
     },
@@ -22079,155 +22427,162 @@
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
+      "kind": "StringLiteral",
+      "offset": 810,
+      "length": 9,
+      "value": "\"#B6B6B6\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "IntegerLiteral",
-      "offset": 826,
+      "offset": 895,
       "length": 4,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "IntegerLiteral",
-      "offset": 840,
+      "offset": 909,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "IntegerLiteral",
-      "offset": 955,
+      "offset": 1024,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "StringLiteral",
-      "offset": 1266,
+      "offset": 1335,
       "length": 20,
       "value": "\"idn-eid-color-text\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "StringLiteral",
-      "offset": 1401,
+      "offset": 1470,
       "length": 20,
       "value": "\"idn-eid-color-text\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "FloatLiteral",
-      "offset": 1443,
+      "offset": 1512,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "FloatLiteral",
-      "offset": 1510,
+      "offset": 1579,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "StringLiteral",
-      "offset": 1778,
+      "offset": 1847,
       "length": 23,
       "value": "\"idn-eid-color-primary\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "StringLiteral",
-      "offset": 1915,
+      "offset": 1984,
       "length": 31,
       "value": "\"idn-eid-color-primary-variant\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "FloatLiteral",
-      "offset": 2013,
+      "offset": 2082,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "FloatLiteral",
-      "offset": 2443,
+      "offset": 2512,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "StringLiteral",
-      "offset": 3173,
+      "offset": 3242,
       "length": 23,
       "value": "\"idn-eid-color-failure\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "StringLiteral",
-      "offset": 3488,
+      "offset": 3557,
       "length": 23,
       "value": "\"idn-eid-color-success\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "StringLiteral",
-      "offset": 3752,
+      "offset": 3821,
       "length": 32,
       "value": "\"idn-eid-color-textfield-border\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "StringLiteral",
-      "offset": 3891,
+      "offset": 3960,
       "length": 18,
       "value": "\"idn-eid-color-bg\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "IntegerLiteral",
-      "offset": 3927,
+      "offset": 3996,
       "length": 8,
       "value": "0xF8F8F8"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "BooleanLiteral",
-      "offset": 4124,
+      "offset": 4193,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "BooleanLiteral",
-      "offset": 4316,
+      "offset": 4385,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "FloatLiteral",
-      "offset": 4655,
+      "offset": 4724,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "BooleanLiteral",
-      "offset": 4833,
+      "offset": 4902,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "FloatLiteral",
-      "offset": 6516,
+      "offset": 6585,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDAppearance.swift",
       "kind": "StringLiteral",
-      "offset": 6646,
+      "offset": 6715,
       "length": 21,
       "value": "\"idn-eid-color-cells\""
     },
@@ -22316,6 +22671,13 @@
       "value": "\"markers\""
     },
     {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/UIElements\/IDnowPoweredByLogo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 302,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/IDNowLottie\/IDNowNodes.swift",
       "kind": "BooleanLiteral",
       "offset": 7479,
@@ -22346,56 +22708,56 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/UIElements\/IDnowFlagDropDown.swift",
       "kind": "BooleanLiteral",
-      "offset": 394,
+      "offset": 393,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/UIElements\/IDnowFlagDropDown.swift",
       "kind": "BooleanLiteral",
-      "offset": 604,
+      "offset": 603,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/UIElements\/IDnowFlagDropDown.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 783,
       "length": 18,
       "value": "\"idn-icon-chevron\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/UIElements\/IDnowFlagDropDown.swift",
       "kind": "FloatLiteral",
-      "offset": 892,
+      "offset": 891,
       "length": 5,
       "value": "0.483"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/UIElements\/IDnowFlagDropDown.swift",
       "kind": "FloatLiteral",
-      "offset": 906,
+      "offset": 905,
       "length": 5,
       "value": "0.483"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/UIElements\/IDnowFlagDropDown.swift",
       "kind": "FloatLiteral",
-      "offset": 952,
+      "offset": 951,
       "length": 5,
       "value": "0.483"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/UIElements\/IDnowFlagDropDown.swift",
       "kind": "IntegerLiteral",
-      "offset": 966,
+      "offset": 965,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/UIElements\/IDnowFlagDropDown.swift",
       "kind": "BooleanLiteral",
-      "offset": 1026,
+      "offset": 1025,
       "length": 5,
       "value": "false"
     },
@@ -22601,6 +22963,13 @@
       "offset": 3399,
       "length": 32,
       "value": "\"eID QES technical error screen\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/IDnowInsights\/IDnowInsightsEventName.swift",
+      "kind": "StringLiteral",
+      "offset": 3480,
+      "length": 30,
+      "value": "\"Choose eID type screen shown\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/IDNowLottie\/IDNowTextAnimator.swift",
@@ -23772,16 +24141,86 @@
       "value": "\"y\""
     },
     {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Presenters\/IDN_eIDEnterPINCodePresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 300,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Presenters\/IDN_eIDEnterPINCodePresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Extensions\/UIView+.swift",
+      "kind": "FloatLiteral",
+      "offset": 1027,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Extensions\/UIView+.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1088,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Extensions\/UIView+.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1099,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Extensions\/UIView+.swift",
+      "kind": "FloatLiteral",
+      "offset": 1146,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Extensions\/UIView+.swift",
+      "kind": "FloatLiteral",
+      "offset": 1200,
+      "length": 5,
+      "value": "0.592"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Extensions\/UIView+.swift",
+      "kind": "FloatLiteral",
+      "offset": 1214,
+      "length": 5,
+      "value": "0.592"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Extensions\/UIView+.swift",
+      "kind": "FloatLiteral",
+      "offset": 1227,
+      "length": 5,
+      "value": "0.592"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Extensions\/UIView+.swift",
+      "kind": "FloatLiteral",
+      "offset": 1241,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Extensions\/UIView+.swift",
       "kind": "BooleanLiteral",
-      "offset": 1118,
+      "offset": 1628,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/Signing\/VerificationCode\/IDN_eIDVerificationCodeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 605,
+      "offset": 710,
       "length": 1,
       "value": "4"
     },
@@ -23837,14 +24276,21 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/SharedIDnow\/idnow_networking\/Services\/IDnoweIDServices.swift",
       "kind": "StringLiteral",
-      "offset": 586,
+      "offset": 584,
+      "length": 10,
+      "value": "\"startEid\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/SharedIDnow\/idnow_networking\/Services\/IDnoweIDServices.swift",
+      "kind": "StringLiteral",
+      "offset": 623,
       "length": 12,
       "value": "\"changeStep\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/SharedIDnow\/idnow_networking\/Services\/IDnoweIDServices.swift",
       "kind": "StringLiteral",
-      "offset": 623,
+      "offset": 660,
       "length": 10,
       "value": "\"canceled\""
     },
@@ -24227,6 +24673,34 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/IDNAusweisAppProcessManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 296,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/IDNAusweisAppProcessManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 621,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/IDNAusweisAppProcessManager.swift",
+      "kind": "Dictionary",
+      "offset": 2215,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/IDNAusweisAppProcessManager.swift",
+      "kind": "Dictionary",
+      "offset": 2276,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/UIElements\/IDN_eIDLoadingView.swift",
       "kind": "StringLiteral",
       "offset": 749,
@@ -24528,20 +25002,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/AALProcessManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1815,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/AALProcessManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5186,
-      "length": 1,
-      "value": "3"
-    },
-    {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/PhoneLib\/IDnowRegexPhoneManager.swift",
       "kind": "StringLiteral",
       "offset": 347,
@@ -24593,7 +25053,7 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDStepsViewController.swift",
       "kind": "Array",
-      "offset": 1492,
+      "offset": 1711,
       "length": 2,
       "value": "[]"
     },
@@ -24694,6 +25154,13 @@
       "offset": 5045,
       "length": 4,
       "value": "18.0"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Presenters\/IDN_eIDDocumentTypesPresenter.swift",
+      "kind": "Array",
+      "offset": 472,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDSecurityViewController.swift",
@@ -25361,6 +25828,20 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/AALProcessManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 976,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/AALProcessManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4842,
+      "length": 1,
+      "value": "3"
+    },
+    {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/UIElements\/IDN_eIDNewChooserCell.swift",
       "kind": "BooleanLiteral",
       "offset": 344,
@@ -25503,70 +25984,70 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTermsAndConditionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 684,
+      "offset": 734,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTermsAndConditionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1317,
+      "offset": 1367,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTermsAndConditionsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1485,
+      "offset": 1535,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTermsAndConditionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1517,
+      "offset": 1567,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTermsAndConditionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1583,
+      "offset": 1633,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTermsAndConditionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1668,
+      "offset": 1718,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTermsAndConditionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1675,
+      "offset": 1725,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTermsAndConditionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1705,
+      "offset": 1755,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTermsAndConditionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1717,
+      "offset": 1767,
       "length": 3,
       "value": "130"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDTermsAndConditionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14324,
+      "offset": 14278,
       "length": 5,
       "value": "false"
     },
@@ -25902,7 +26383,7 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/IDN_eIDNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 488,
+      "offset": 1339,
       "length": 2,
       "value": "\"\""
     },
@@ -26075,6 +26556,405 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 10,
+      "value": "\"RUN_AUTH\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 6,
+      "value": "\"AUTH\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 15,
+      "value": "\"ACCESS_RIGHTS\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 13,
+      "value": "\"CERTIFICATE\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 395,
+      "length": 8,
+      "value": "\"ACCEPT\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 11,
+      "value": "\"ENTER_PIN\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 9,
+      "value": "\"SET_PIN\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 8,
+      "value": "\"CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 13,
+      "value": "\"INSERT_CARD\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 578,
+      "length": 8,
+      "value": "\"READER\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 11,
+      "value": "\"INTERRUPT\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 19,
+      "value": "\"SET_ACCESS_RIGHTS\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
+      "length": 11,
+      "value": "\"ENTER_CAN\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 9,
+      "value": "\"SET_CAN\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 782,
+      "length": 11,
+      "value": "\"ENTER_PUK\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 821,
+      "length": 11,
+      "value": "\"BAD_STATE\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 884,
+      "length": 16,
+      "value": "\"RUN_CHANGE_PIN\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 929,
+      "length": 12,
+      "value": "\"CHANGE_PIN\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 973,
+      "length": 15,
+      "value": "\"ENTER_NEW_PIN\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1018,
+      "length": 13,
+      "value": "\"SET_NEW_PIN\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 3391,
+      "length": 979,
+      "value": "\"{\n\"cmd\": \"RUN_AUTH\",\n\"handleInterrupt\": false,\n\"tcTokenURL\": \"%@\",\n\"developerMode\": %@,\n\"status\": true,\n\"messages\": {\n    \"sessionStarted\": \"\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 3634,
+      "length": 45,
+      "value": "\"js.mobile.eid.nfc.popup.ios.session.started\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 3731,
+      "length": 66,
+      "value": "\"Please place your ID card on the top of the device's front side.\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 3799,
+      "length": 2,
+      "value": "\"\",\n    \"sessionFailed\": \"\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 3838,
+      "length": 44,
+      "value": "\"js.mobile.eid.nfc.popup.ios.session.failed\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 3934,
+      "length": 26,
+      "value": "\"Scanning process failed.\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 3962,
+      "length": 2,
+      "value": "\"\",\n    \"sessionSucceeded\": \"\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4004,
+      "length": 47,
+      "value": "\"js.mobile.eid.nfc.popup.ios.session.succeeded\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4103,
+      "length": 50,
+      "value": "\"Scanning process has been finished successfully.\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4155,
+      "length": 2,
+      "value": "\"\",\n    \"sessionInProgress\": \"\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4198,
+      "length": 48,
+      "value": "\"js.mobile.eid.nfc.popup.ios.session.inprogress\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4302,
+      "length": 34,
+      "value": "\"Scanning process is in progress.\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4338,
+      "length": 1,
+      "value": "\"\"\n}}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4396,
+      "length": 71,
+      "value": "\"{\n    \"cmd\": \"SET_CAN\",\n    \"value\": \"%@\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4493,
+      "length": 71,
+      "value": "\"{\n    \"cmd\": \"SET_PIN\",\n    \"value\": \"%@\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4597,
+      "length": 93,
+      "value": "\"{\n\"cmd\": \"GET_INFO\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4729,
+      "length": 70,
+      "value": "\"{\n\"cmd\": \"GET_ACCESS_RIGHTS\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4832,
+      "length": 68,
+      "value": "\"{\n\"cmd\": \"GET_CERTIFICATE\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 4932,
+      "length": 62,
+      "value": "\"{\n\"cmd\": \"ENTER_PIN\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5024,
+      "length": 59,
+      "value": "\"{\n\"cmd\": \"ACCEPT\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5108,
+      "length": 59,
+      "value": "\"{\n\"cmd\": \"CANCEL\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5195,
+      "length": 62,
+      "value": "\"{\n\"cmd\": \"INTERRUPT\"\n}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5291,
+      "length": 102,
+      "value": "\"{\n\"cmd\": \"SET_ACCESS_RIGHTS\",\n\"chat\": [\"FamilyName\"]\n}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5447,
+      "length": 900,
+      "value": "\"{\n\"cmd\": \"RUN_CHANGE_PIN\",\n\"handleInterrupt\": true,\n\"status\": true,\n\"messages\": {\n        \"sessionStarted\": \"\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5610,
+      "length": 45,
+      "value": "\"js.mobile.eid.nfc.popup.ios.session.started\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5707,
+      "length": 66,
+      "value": "\"Please place your ID card on the top of the device's front side.\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5775,
+      "length": 2,
+      "value": "\"\",\n        \"sessionFailed\": \"\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5814,
+      "length": 44,
+      "value": "\"js.mobile.eid.nfc.popup.ios.session.failed\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5910,
+      "length": 26,
+      "value": "\"Scanning process failed.\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5938,
+      "length": 2,
+      "value": "\"\",\n        \"sessionSucceeded\": \"\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 5980,
+      "length": 47,
+      "value": "\"js.mobile.eid.nfc.popup.ios.session.succeeded\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 6079,
+      "length": 50,
+      "value": "\"Scanning process has been finished successfully.\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 6131,
+      "length": 2,
+      "value": "\"\",\n        \"sessionInProgress\": \"\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 6174,
+      "length": 48,
+      "value": "\"js.mobile.eid.nfc.popup.ios.session.inprogress\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 6278,
+      "length": 34,
+      "value": "\"Scanning process is in progress.\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 6314,
+      "length": 1,
+      "value": "\"\"\n}\n}\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 6375,
+      "length": 86,
+      "value": "\"{\n\"cmd\": \"SET_NEW_PIN\",\n\"value\":\"%@\"\n}\""
+    },
+    {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/IDNowLottie\/IDNowLayerModels.swift",
       "kind": "StringLiteral",
       "offset": 517,
@@ -26201,6 +27081,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Extensions\/UIButton+.swift",
+      "kind": "FloatLiteral",
+      "offset": 397,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDChooserPageViewController.swift",
       "kind": "StringLiteral",
       "offset": 391,
@@ -26213,27 +27100,6 @@
       "offset": 466,
       "length": 4,
       "value": "18.0"
-    },
-    {
-      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Presenters\/IDN_eIDStepsPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 270,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Presenters\/IDN_eIDStepsPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 299,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Presenters\/IDN_eIDStepsPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 613,
-      "length": 26,
-      "value": "\"Identification-Signature\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/IDNowLottie\/IDNowFontList.swift",
@@ -26269,6 +27135,41 @@
       "offset": 579,
       "length": 6,
       "value": "\"list\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/IDN_eIDAuthProcess.swift",
+      "kind": "Array",
+      "offset": 2751,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Manager\/IDN_eIDAuthProcess.swift",
+      "kind": "Dictionary",
+      "offset": 2800,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2993,
+      "length": 16,
+      "value": "\"User_Cancelled\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3044,
+      "length": 15,
+      "value": "\"NAME_MISMATCH\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/AusweisApp2\/AusweisAppResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 3378,
+      "length": 13,
+      "value": "\"description\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Helpers\/IDNowLottie\/IDNowAnimationView.swift",
@@ -26609,7 +27510,7 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Presenters\/IDN_eIDReadDataConfirmationPresenter.swift",
       "kind": "Dictionary",
-      "offset": 1233,
+      "offset": 1201,
       "length": 3,
       "value": "[]"
     },
@@ -26651,406 +27552,427 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 670,
+      "offset": 666,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 714,
+      "offset": 710,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 760,
+      "offset": 756,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 797,
+      "offset": 793,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 839,
+      "offset": 835,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 874,
+      "offset": 870,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "Array",
-      "offset": 922,
+      "offset": 918,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "StringLiteral",
-      "offset": 955,
+      "offset": 951,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 981,
+      "offset": 977,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1008,
+      "offset": 1004,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1112,
+      "offset": 1108,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1147,
+      "offset": 1143,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1184,
+      "offset": 1180,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1432,
+      "offset": 1426,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1470,
+      "offset": 1723,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1580,
+      "offset": 1761,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1838,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1907,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 1610,
+      "offset": 1937,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1898,
+      "offset": 2225,
       "length": 14,
       "value": "\"processsteps\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1970,
+      "offset": 2312,
       "length": 24,
       "value": "\"enableEIDStandaloneiOS\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 2386,
+      "length": 8,
+      "value": "\"eIDTSP\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Models\/IDN_eIDSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 3809,
+      "offset": 4386,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1688,
+      "offset": 1759,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2010,
+      "offset": 2081,
       "length": 16,
       "value": "\"idn-close-icon\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2281,
+      "offset": 2352,
       "length": 20,
       "value": "\"idn-eid-flashlight\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2578,
+      "offset": 2649,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2641,
+      "offset": 2712,
       "length": 20,
       "value": "\"idn-eid-powered-by\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2796,
+      "offset": 2867,
       "length": 19,
       "value": "\"eIDCaptureSession\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "Array",
-      "offset": 2866,
+      "offset": 2937,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9605,
+      "offset": 9676,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9655,
+      "offset": 9726,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10328,
+      "offset": 10432,
       "length": 23,
       "value": "\"Torch isn't available\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10810,
+      "offset": 10914,
       "length": 4,
       "value": "\"Ok\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11015,
+      "offset": 11119,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11113,
+      "offset": 11217,
       "length": 20,
       "value": "\"idn-eid-flashlight\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11151,
+      "offset": 11255,
       "length": 23,
       "value": "\"idn-eid-flashlight_on\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10184,
+      "offset": 10288,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18458,
+      "offset": 18562,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18638,
+      "offset": 18742,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19191,
+      "offset": 19295,
       "length": 12,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19285,
+      "offset": 19389,
       "length": 5,
       "value": "260.0"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19327,
+      "offset": 19431,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19364,
+      "offset": 19468,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19412,
+      "offset": 19516,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19455,
+      "offset": 19559,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19492,
+      "offset": 19596,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19595,
+      "offset": 19699,
       "length": 4,
       "value": "35.0"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20067,
+      "offset": 20171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20200,
+      "offset": 20304,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 20358,
+      "offset": 20462,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20390,
+      "offset": 20494,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20466,
+      "offset": 20570,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20604,
+      "offset": 20708,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20729,
+      "offset": 20833,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20805,
+      "offset": 20909,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20956,
+      "offset": 21060,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21465,
+      "offset": 21569,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23096,
+      "offset": 23200,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23279,
+      "offset": 23383,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Presenters\/IDN_eIDCardCommunicationPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 596,
+      "offset": 573,
       "length": 5,
       "value": "false"
     },
@@ -27071,35 +27993,35 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDFinishViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2452,
+      "offset": 3071,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDFinishViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2620,
+      "offset": 3239,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDFinishViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2652,
+      "offset": 3271,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDFinishViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2718,
+      "offset": 3337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/idnow_eid\/Views\/IDN_eIDVerifyingResultViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 604,
+      "offset": 611,
       "length": 5,
       "value": "false"
     },
@@ -27379,147 +28301,161 @@
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2665,
+      "offset": 2650,
+      "length": 9,
+      "value": "\"flag-DE\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2782,
+      "length": 9,
+      "value": "\"flag-EU\""
+    },
+    {
+      "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2929,
       "length": 17,
       "value": "\"idn-arrow-right\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2816,
+      "offset": 3080,
       "length": 15,
       "value": "\"idn-back-icon\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2975,
+      "offset": 3239,
       "length": 20,
       "value": "\"idn-checked-circle\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3139,
+      "offset": 3403,
       "length": 20,
       "value": "\"idn-checked-square\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3295,
+      "offset": 3559,
       "length": 16,
       "value": "\"idn-close-icon\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3452,
+      "offset": 3716,
       "length": 19,
       "value": "\"idn-eid-back-icon\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3615,
+      "offset": 3879,
       "length": 20,
       "value": "\"idn-eid-flashlight\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3784,
+      "offset": 4048,
       "length": 23,
       "value": "\"idn-eid-flashlight_on\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3950,
+      "offset": 4214,
       "length": 20,
       "value": "\"idn-eid-powered-by\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4111,
+      "offset": 4375,
       "length": 19,
       "value": "\"idn-eid-where-can\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4290,
+      "offset": 4554,
       "length": 29,
       "value": "\"idn-eid-where-transport-pin\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4451,
+      "offset": 4715,
       "length": 14,
       "value": "\"idn-eye-icon\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4614,
+      "offset": 4878,
       "length": 23,
       "value": "\"idn-icon-btn-download\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4775,
+      "offset": 5039,
       "length": 17,
       "value": "\"idn-icon-retake\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4936,
+      "offset": 5200,
       "length": 20,
       "value": "\"idn-icon-takePhoto\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5102,
+      "offset": 5366,
       "length": 21,
       "value": "\"idn-identcode-error\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5257,
+      "offset": 5521,
       "length": 15,
       "value": "\"idn-lock-icon\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5404,
+      "offset": 5668,
       "length": 14,
       "value": "\"idn-new-logo\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5566,
+      "offset": 5830,
       "length": 22,
       "value": "\"idn-unchecked-circle\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5736,
+      "offset": 6000,
       "length": 22,
       "value": "\"idn-unchecked-square\""
     },
     {
       "filePath": "\/Users\/pavlostetsenko\/vi_temp\/de.idnow.ios-base\/idnow_eid\/dist\/Build\/Intermediates.noindex\/idnow_eid.build\/Release-iphoneos\/idnow_eid.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5889,
+      "offset": 6153,
       "length": 13,
       "value": "\"idn-warning\""
     }
